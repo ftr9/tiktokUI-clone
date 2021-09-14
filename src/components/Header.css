@@ -1,0 +1,79 @@
+.header {
+  border-bottom: 1px solid rgb(216, 216, 216);
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rem;
+}
+.header img:hover {
+  cursor: pointer;
+}
+.header__searchBar {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(241, 241, 241);
+  padding: 0.8rem 2rem;
+  border-radius: 10rem;
+  width: 35rem;
+  border: 1px solid transparent;
+}
+
+.header__searchBar:focus {
+  border: 1px solid gray;
+}
+
+.header__searchBar input {
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  border: none;
+  font-family: inherit;
+  caret-color: #fe2c55;
+  font-size: 1.6rem;
+}
+
+.header__searchBar input:focus {
+  outline: none;
+}
+
+.searchIcon {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.searchIcon {
+  font-size: 2rem;
+}
+
+.searchIcon::before {
+  content: '|';
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.upload {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header__buttons > a {
+  margin-right: 2rem;
+}
+.header__buttons > a:hover {
+  text-decoration: underline;
+}
+.header__buttons > ion-icon {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.header__buttons > ion-icon:hover {
+  cursor: pointer;
+}

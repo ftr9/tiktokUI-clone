@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+}
+.card:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.card__image {
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: black;
+  border-radius: 50%;
+}
+.card__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.card__name--primary {
+  color: gray;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  color: black;
+}
+.card__name--secondary {
+  color: rgb(78, 78, 78);
+  font-weight: 300;
+  font-size: 1.2rem;
+}

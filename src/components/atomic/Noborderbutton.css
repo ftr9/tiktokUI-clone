@@ -1,0 +1,27 @@
+.noborderbutton {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: transparent;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.noborderbutton div ion-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-right: 1rem;
+}
+.noborderbutton:hover {
+  background-color: rgb(246, 246, 246);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+#red {
+  color: #fe2c55;
+}
+
+#dark {
+  color: black;
+}

@@ -1,0 +1,68 @@
+.leftcomponent {
+  height: 64rem;
+  width: 30%;
+  overflow-y: scroll;
+  padding: 2rem 0rem 2rem 0.5rem;
+}
+
+.leftcomponent .noborderbutton:nth-of-type(2) {
+  margin-bottom: 1rem;
+}
+
+.leftcomponent__section {
+  border-top: 1px solid rgb(199, 199, 199);
+  border-bottom: 1px solid rgb(211, 211, 211);
+  padding: 2.5rem 0rem 2.5rem 1rem;
+}
+.leftcomponent__section p {
+  margin-bottom: 2rem;
+  color: rgb(133, 133, 133);
+}
+
+.leftcomponent__section--bottom {
+  border-bottom: 1px solid rgb(211, 211, 211);
+  padding: 1.5rem 0rem 2.5rem 1rem;
+  color: rgb(70, 70, 70);
+  letter-spacing: 0.5px;
+}
+
+.leftcomponent__section--bottom p {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.leftcomponent__section--bottom p:not(:first-child) {
+  color: #fe2c55;
+  margin-top: 1rem;
+}
+
+.hasButton {
+  border: 1px solid gray;
+  display: inline-block;
+  border-radius: 10rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 0 2rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.leftcomponent__footer a {
+  display: inline-block;
+  margin-right: 0.5rem;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: gray;
+}
+.leftcomponent a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: gray;
+  margin-top: 1rem;
+}
