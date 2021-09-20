@@ -1,8 +1,8 @@
 import './Borderbutton.css';
 
-const Borderbuttons = ({ size, name }) => {
+const Borderbuttons = ({ size, name, onclick }) => {
     return (
-        <button className={`borderButton ${size} common`}>{name}</button>
+        <button onClick={onclick} className={`borderButton ${size} common`}>{name}</button>
     )
 }
 

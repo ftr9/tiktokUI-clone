@@ -1,0 +1,89 @@
+.loginPopUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardLogin {
+  text-align: center;
+  background-color: white;
+  width: 30%;
+  border-radius: 0.5rem;
+  position: relative;
+}
+.cardLogin button {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  border-radius: 50%;
+  border: none;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.cardLogin button:hover {
+  color: rgb(88, 88, 88);
+}
+
+.cardLogin h2 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.buttonsForms {
+  text-align: center;
+}
+
+.login_with_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.login_with_button a {
+  text-decoration: none;
+  color: black;
+}
+
+.login_with_button a:nth-of-type(2) {
+  width: 60%;
+  font-size: 1.5rem;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 1rem;
+  font-weight: 700;
+}
+.login_with_button a:nth-of-type(1) {
+  font-size: 2.5rem;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: blue;
+}
+
+.noAccount {
+  margin-top: 8rem;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: flex-start;
+  border-top: 1px solid gray;
+}
+.noAccount a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: #fe2c55;
+}

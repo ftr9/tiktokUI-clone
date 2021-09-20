@@ -3,8 +3,11 @@ import './Leftcomponent.css';
 import Noborderbutton from './atomic/Noborderbutton';
 import Borderbuttons from './atomic/Borderbuttons';
 import Accountcard from './atomic/Accountcard';
+import { showpopUp } from './redux/actions';
+import { connect } from 'react-redux';
 
-const Leftcomponent = () => {
+
+const Leftcomponent = ({ showpopUp }) => {
     return (
         <div className="leftcomponent">
 
@@ -13,7 +16,7 @@ const Leftcomponent = () => {
 
             <div className="leftcomponent__section">
                 <p>Log in to follow creators, like videos, and view comments.</p>
-                <Borderbuttons size="xl" name="Log in" />
+                <Borderbuttons onclick={showpopUp} size="xl" name="Log in" />
             </div>
 
             <div className="leftcomponent__section--bottom">
@@ -68,4 +71,6 @@ const Leftcomponent = () => {
     )
 }
 
-export default Leftcomponent
+export default connect(null, {
+    showpopUp
+})(Leftcomponent)

@@ -1,8 +1,8 @@
 import './Filledbuttons.css';
 
-const Filledbuttons = () => {
+const Filledbuttons = ({ onclick }) => {
     return (
-        <button className="Filledbuttons">Log in</button>
+        <button onClick={onclick} className="Filledbuttons">Log in</button>
     )
 }
 
