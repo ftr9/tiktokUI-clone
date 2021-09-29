@@ -1,0 +1,48 @@
+.videoPart {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  border-bottom: 0.5px solid rgb(223, 223, 223);
+}
+
+.videoPart__left {
+  width: 65%;
+}
+
+.videoPart__title--legacy {
+  padding: 0 7rem;
+  margin: 0.8rem 0;
+}
+
+.videoPart__header {
+  display: flex;
+}
+
+.videoPart__image {
+  height: 6rem;
+  width: 6rem;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.videoPart__vid {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  height: 50rem;
+  width: 30rem;
+  background-color: red;
+  margin-left: 7rem;
+}
+
+.videoPart__video {
+  display: flex;
+}
+
+.videoPart__buttons {
+  align-self: flex-end;
+}
+
+.videoPart__content {
+  margin-left: 1.5rem;
+}

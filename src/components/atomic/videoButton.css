@@ -1,0 +1,27 @@
+.video__button {
+  margin-bottom: 1rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+.video__button .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: rgb(223, 223, 223);
+  text-align: center;
+}
+
+.video__button .icon ion-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.video__button .pouplation {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}

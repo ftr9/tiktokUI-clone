@@ -1,4 +1,7 @@
 .rightComponent {
   width: 70%;
+  height: 90vh;
   background-color: white;
+  padding: 1rem 2rem;
+  overflow-y: scroll;
 }
